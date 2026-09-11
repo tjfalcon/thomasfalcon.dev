@@ -92,13 +92,18 @@ export default function Home() {
 
       <section className="section shell now">
         <div><p className="eyebrow">Now</p><h2>An eight-week applied-AI build.</h2></div>
-        <div className="timeline" aria-label="Current build roadmap">
-          {[
-            "RAG MVP", "Retrieval evals", "Reliability", "Case study",
-            "OSAR workflow", "Container trial", "Market packaging", "Conversion sprint",
-          ].map((item, i) => (
-            <div className={i === 0 ? "active" : ""} key={item}><span>W{i + 1}</span><strong>{item}</strong></div>
-          ))}
+        <div>
+          <div className="timeline" aria-label="Current build roadmap">
+            {[
+              "RAG MVP", "Retrieval evals", "Reliability", "Case study",
+              "OSAR workflow", "Container trial", "Market packaging", "Conversion sprint",
+            ].map((item, i) => (
+              <div className={i === 0 ? "active" : ""} key={item}><span>W{i + 1}</span><strong>{item}</strong></div>
+            ))}
+          </div>
+          <a className="roadmapLink" href="https://github.com/tjfalcon/thomasfalcon.dev/blob/main/docs/BUILD_AND_JOB_SEARCH_PLAN.md">
+            Read the targets and definitions of done →
+          </a>
         </div>
       </section>
 
