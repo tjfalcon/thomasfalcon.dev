@@ -34,7 +34,7 @@ export default function Home() {
         <div className="navLinks">
           <a href="#work">Work</a>
           <a href="#approach">Approach</a>
-          <a href="/Thomas-Falcon-Resume.pdf">Résumé</a>
+          <a href="./Thomas-Falcon-Resume.pdf">Résumé</a>
           <a href="https://www.linkedin.com/in/thomasfalcon/">LinkedIn</a>
         </div>
       </nav>
